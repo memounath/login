@@ -12,21 +12,25 @@
 
     <main class="flex justify-center items-center h-screen p-4">
         <form action="" class="border shadow-md p-4 bg-white">
-            <i class="ti-close" class="aligne-right"></i>
-            <img src="./logo.png" class="w-100 h-75 w-full">
+           <div class="flex justify-end items-center">
+            <i class="ti-close" class="relative r-0"></i>
+           </div>
+            <div class="flex justify-center items-center">
+                <img src="./logo.png" class="w-100 h-75">
+            </div>
             <p class=" text-center">One account</p>
             <p class="mt-2 text-center">Many possibilites</p>
             <input type="text" placeholder="E-mail address or phone number" class="border shadow-sm p-2 mt-5 rounded-md w-full outline-none"><br>
-            <input type="password" placeholder="Password" class="border shadow-sm p-2 mt-5 w-full outline-none"><br><br>
+            <input type="password" placeholder="Password" class="border shadow-sm p-2 mt-5 w-full outline-none rounded-md"><br><br>
            <div class="flex justify-center items-center gap-12">
-            <h6><input type="checkbox" class="rounded">Remember me</h6>
-            <h6 class="text-red-500">Forgot password ?</h6>
+            <h6 class="mt-0.3"><input type="checkbox" class="mt-0.3">Remember me</h6>
+            <a href="#" class="text-red-500">Forgot password ?</a>
            </div><br>
             <button type="submit" class="border shadow-md p-2 mt-5 rounded-md w-full outline-none bg-black text-white">Sign up</button>
             <button type="submit" class="border shadow-md p-2 mt-5 rounded-md w-full bg-white text-black"> <i class="ti-email" class="mr-12"></i> Sign in with Google</button><br><br>
             <div class="flex justify-center items-center gap-4">
-                <h6 class="top-8">Not a member yet?</h6>
-                <h6 class="text-red-500 top-8">Sign up</h6>
+                <h6 class="top-8 ">Not a member yet?</h6>
+                <a href="#"class="text-red-500 top-8">Sign up</a>
                </div>
         </form>
     </main>
