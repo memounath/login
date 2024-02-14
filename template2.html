@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>login2</title>
+    <title>template2</title>
 </head>
-<body class="bg-blue-50">
+<body class="bg-white-50">
 
     <header class="sticky top-0 z-10 h-14 bg-white md:h-20 px-4 shadow-sm py-2 md:px-20 flex items-center">
         <nav class="flex items-center gap-x-4 justify-between md:justify-normal w-full">
@@ -27,52 +27,85 @@
         </nav>
       </header>
 
-    <main class="flex justify-center items-center h-screen p-4">
-       <div class="flex justify-center items-center gap-0">
-        <div>
-            <form action="" class="border shadow-md p-4 bg-white">
-                <div class="flex justify-end items-center">
-                 <i class="ti-close" class="relative r-0"></i>
-                </div>
-                 <h1>Login</h1>
-                 <p class="mt-2">Messure the performance of ayptes get big protege</p>
-                 <button type="submit" class="border shadow-md p-2 mt-5 rounded-md w-full bg-white text-black">Sign in with Google</button><br><br>
-                 <label for="" class="mt-8">Email:</label>
-                 <input type="text" placeholder="E-mail address" class="border shadow-sm p-2 mt-5 rounded-md w-full outline-none"><br><br>
-                 <label for="" class="mt-8">Password:</label>
-                 <input type="password" placeholder="Password" class="border shadow-sm p-2 mt-5 w-full outline-none rounded-md"><br><br>
-                <div class="flex justify-center items-center gap-12">
-                 <h6 class="mt-0.3"><input type="checkbox" class="mt-0.3">Remember me</h6>
-                 <a href="#" class="text-violet-500">Forgot password ?</a>
-                </div><br>
-                 <button type="submit" class="border shadow-md p-2 mt-5 rounded-md w-full outline-none bg-violet-500 text-white">Sign up</button><br>
-                 <div class="flex justify-center items-center gap-0">
-                     <h6 class="top-8 ">Not a member yet?</h6>
-                     <a href="#"class="text-violet-500 top-8">Cree in Account</a>
-                    </div>
-             </form>
-        </div>
-
-        <div>
-           <div class="border shadow-md p-4 bg-violet-500">
-            <h1 class="text-4xl text-white text-center">Welcome to our <br> community</h1><br>
-            <p class="text-center text-white text-6xxl top-12">Ladipisci quisquam dele dolorum <br> 
-                Lorem ipsum, dolor sit consectetur adipisicing.</p><br><br>
-                <div class="flex justify-center items-center h-25">
-                    <img src="./assets/img/Annotation 2024-02-11 084617.png">
-                </div><br><br>
-                <h1 class="text-center text-white">Make your dreams <br>come true.</h1><br>
-                <p class="text-center text-white text-4xxl">Quality exper lance on device</p>
-              <div class="flex justify-center items-center gap-2 mt-1">
-                <input type="text" class="h-2 w-4 rounded-md">
-                <input type="text" class="h-2 w-4 rounded-md">
-                <input type="text" class="h-2 w-4 rounded-md">
+      <div class="flex justify-center items-center  min-h-screen ">
+        <div class="w-full pl-11  pr-11 bg-white ml-14  ">
+          <div>
+            <img src="./assets/img/12.png" alt="">
+          </div>
+          <form class="bg-white  rounded-md px-8 pt-6 pb-8 mb-4">
+              <div class="mb-4 flex ">
+                  <h2 class="font-bold text-4xl">Login </h2> 
               </div>
-           </div>
+      
+              <div class="mb-4 flex ">
+                  <h1 class="font-semibold">Hi, welcome back</h1>
+              </div>
+      
+              <div class="flex  items-center justify-around border-2 py-2 w-96 px-4 border-black rounded-md">
+              <div>
+                  <img class="h-5 " src="./assets/img/google.png">  
+              </div>
+              <div>  
+              <a class="inline-block  align-baseline font-semibold text-sm text-black " href="#">
+                Sign in with Google
+              </a>
+              </div>
+            </div>
+              
+              <br>
+                 <div class="flex justify-star ml-12 items-center gap-2">
+                        <input type="text" class="h-0.5 border w-24">Or<input type="text" class="h-0.5 w-24 border">
+                    </div>
+      
+            <br>
+      
+            <div class="mb-4">
+            <label>Email Address</label><br>
+              <input class="border-2 rounded-md appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="E.g.johndoe@gmail.com">
+            </div>
+            <div class="mb-6">
+              <label>Password</label><br>
+              <input class="border-2 rounded-md appearance-none border rounded w-96 py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter your password">
+            </div>
+            <div class="flex gap-8">
+              <label class="pl-0 font-semibold"><input type="checkbox"> Remeber for 30 days</label>
+              <a class="inline-block align-baseline font-semibold text-sm text-blue-800" href="#">
+                Forgot password?
+              </a>
+            </div>
+      
+          <br>
+            <div class="mb-6">
+              <button class="bg-violet-500  text-white font-medium w-96 py-2 px-4 rounded-md focus:outline-none focus:shadow-outline" type="submit">
+                Login
+              </button>
+             </div>
+      
+             
+              
+              <div class="mb-4 flex justify-star ml-12 items-center">
+                  <h4 class="font-semibold">Not register yet? <a class="inline-block  align-baseline font-semibold text-sm text-indigo-600 ">Create account</a></h4>
+              </div>
+      
+          </form>
         </div>
-
-       </div>
-    </main>
+      
+        <div class="w-full   h-screen bg-violet-500 rounded-md "><br><br>
+        <h1 class="text-4xl text-white text-center">Welcome to our <br> community</h1><br>
+                  <p class="text-center text-white text-6xxl top-12">Ladipisci quisquam dele dolorum <br> 
+                      Lorem ipsum, dolor sit consectetur adipisicing.</p><br><br>
+                      <div class="flex justify-center items-center h-25">
+                          <img src="./assets/img/Annotation 2024-02-11 084617.png">
+                      </div><br><br>
+                      <h1 class="text-center text-white">Make your dreams <br>come true.</h1><br>
+                      <p class="text-center text-white text-4xxl">Quality exper lance on device</p>
+                    <div class="flex justify-center items-center gap-2 mt-1">
+                      <input type="text" class="h-2 w-4 rounded-md">
+                      <input type="text" class="h-2 w-4 rounded-md">
+                      <input type="text" class="h-2 w-4 rounded-md">
+                    </div>
+        </div>
+        </div>
     
 </body>
 </html>

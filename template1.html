@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/themify-icons/themify-icons.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Login</title>
+    <title>template1</title>
 </head>
 <body class="bg-blue-50">
 
@@ -28,30 +28,64 @@
         </nav>
       </header>
 
-    <main class="flex justify-center items-center h-screen p-4">
-        <form action="" class="border shadow-md p-4 bg-white">
-           <div class="flex justify-end items-center">
-            <i class="ti-close" class="relative r-0"></i>
-           </div>
-            <div class="flex justify-center items-center">
-                <img src="./assets/img/logo.png" class="w-100 h-75">
+      <div class="flex justify-center items-center min-h-screen bg-gray-100">
+        <div class="w-full max-w-sm bg-white rounded-md shadow-lg">
+        
+          <form class="bg-white  rounded-md px-8 pt-6 pb-8 mb-4">
+              <div class="mb-4 flex  justify-end">
+                  <span class="font-semi text-3xl ">x</span>
+              </div>
+              <div class="mb-4 flex justify-center items-center">
+                  <img class="h-11" src="./assets/img/logo.png">
+              </div>
+      
+              <div class="mb-4 flex justify-center items-center">
+                  <h1 class="font-semibold">One account </h1> 
+              </div>
+      
+              <div class="mb-4 flex justify-center items-center">
+                  <h1 class="font-semibold">Many possibilities</h1>
+              </div>
+              
+      
+            <div class="mb-4">
+              <input class=" appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Email address or phone">
             </div>
-            <p class=" text-center">One account</p>
-            <p class="mt-2 text-center">Many possibilites</p>
-            <input type="text" placeholder="E-mail address or phone number" class="border shadow-sm p-2 mt-5 rounded-md w-full outline-none"><br>
-            <input type="password" placeholder="Password" class="border shadow-sm p-2 mt-5 w-full outline-none rounded-md"><br><br>
-           <div class="flex justify-center items-center gap-12">
-            <h6 class="mt-0.3"><input type="checkbox" class="mt-0.3">Remember me</h6>
-            <a href="#" class="text-red-500">Forgot password ?</a>
-           </div><br>
-            <button type="submit" class="border shadow-md p-2 mt-5 rounded-md w-full outline-none bg-black text-white">Sign up</button>
-            <button type="submit" class="border shadow-md p-2 mt-5 rounded-md w-full bg-white text-black"> <i class="ti-email" class="mr-12"></i> Sign in with Google</button><br><br>
-            <div class="flex justify-center items-center gap-4">
-                <h6 class="top-8 ">Not a member yet?</h6>
-                <a href="#"class="text-red-500 top-8">Sign up</a>
-               </div>
-        </form>
-    </main>
+            <div class="mb-6">
+              <input class=" appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Password">
+            </div>
+            <div class="flex items-center justify-between">
+              <label class="pl-0 font-semibold"><input type="checkbox"> Remeber me</label>
+              <a class="inline-block align-baseline font-semibold text-sm text-red-500" href="#">
+                Forgot password?
+              </a>
+            </div>
+      
+          <br>
+            <div class="mb-6">
+              <button class="bg-black  text-white font-medium w-full py-2 px-4 rounded-md focus:outline-none focus:shadow-outline" type="submit">
+                Sign in
+              </button>
+             </div>
+      
+             <div class="flex  items-center justify-around w-full border-2 py-2 px-4 border-black rounded-md">
+              <div>
+                  <img class="h-5 pl-16" src="./assets/img/google.png">  
+              </div>
+              <div>  
+              <a class="inline-block pr-12 align-baseline font-semibold text-sm text-black " href="#">
+                Sign in with Google
+              </a>
+              </div>
+            </div>
+              <br>
+              <div class="mb-4 flex justify-center items-center">
+                  <h4 class="font-semibold">Not a member yet? <a href="" class="inline-block  align-baseline font-normal text-sm text-red-600 ">Sign up</a></h4>
+              </div>
+      
+          </form>
+        </div>
+      </div>
     
 </body>
 </html>

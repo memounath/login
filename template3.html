@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>login2</title>
+    <title>template3</title>
 </head>
 <body class="bg-blue-50">
 
@@ -27,38 +27,69 @@
         </nav>
       </header>
 
-    <main class="flex justify-center items-center h-screen p-4">
-            <form action="" class="border shadow-md p-4 bg-white">
-                <div class="flex justify-center items-center">
-                 <img src="./assets/img/log.png">
-                </div>
-                 <h1 class="text-center text-xl">Welcome bach</h1>
-                 <p class="mt-2 text-center">Please enter your details to sign in</p><br>
-                <div class="flex justify-center items-center gap-4">
-                    <div class="bg-white-500 border rounded-md">
-                        <a href="http://www.google.com/mail/"><img src="./assets/img/google.png" class="w-16 h-11 "></a>
-                    </div>
-                    <a href="https://www.icloud.com/mail/"><img src="./assets/img/Apple-Logo-600x313.PNG" class="w-16 rounded-md h-11 bg-white-50 border"></a>
-                    <a href="https://www.facebook.com"><img src="./assets/img/facebook.jpg" class="w-16 rounded-md h-11 bg-white-50 border"></a>
-                </div><br>
-                <div class="flex justify-center items-center gap-2">
-                    <input type="text" class="h-0.5 border w-24">Or<input type="text" class="h-0.5 w-24 border">
-                </div><br>
-                 <label for="" class="mt-8">Email adress:</label>
-                 <input type="text" placeholder="Enter your email" class="border shadow-sm p-2 mt-5 rounded-md w-full outline-none"><br><br>
-                 <label for="" class="mt-8">Password:</label>
-                 <input type="password" placeholder="password" class="border shadow-sm p-2 mt-5 w-full outline-none rounded-md">
-                 <br><br>
-                <div class="flex justify-center items-center gap-12">
-                 <h6 class="mt-0.3"><input type="checkbox" class="mt-0.3">Remember for 30 days</h6>
-                 <a href="#" class="text-violet-500">Forgot password ?</a>
-                </div><br>
-                 <button type="submit" class="border shadow-md p-2 mt-5 rounded-md w-full outline-none bg-violet-500 text-white">Sign up</button><br>
-                 <div class="flex justify-center items-center gap-0">
-                     <h6 class="top-8 ">Don't have an account?</h6>
-                     <a href="#"class="text-violet-500 top-8">Create Account</a>
-             </form>
-    </main>
+      <div class="flex justify-center items-center min-h-screen bg-gray-100">
+        <div class="w-full max-w-md bg-white rounded-md shadow-lg">
+        
+          <form class="bg-white  rounded-md px-8 pt-6 pb-8 mb-4">
+              
+              <div class="mb-4 flex justify-center items-center">
+                  <img class="h-11" src="./assets/img/log.png">
+              </div>
+      
+              <div class="mb-4 flex justify-center items-center">
+                  <h1 class="font-bold text-4xl">Welcome Back </h1> 
+              </div>
+      
+              <div class="mb-4 flex justify-center items-center">
+                  <h1 class="font-semibold">Please enter your details to sign in</h1>
+              </div>
+      
+               <div class="flex items-center justify-around">
+                 <div class="border-2  border-black-200 rounded-md shadow-md">  
+                      <img class="h-11 w-24 px-5 " src="./assets/img/google.png">  
+                  </div>  
+                  <div class="border-2  border-black-200 rounded-md shadow-md">  
+                      <img class="h-11 w-24 px-5 " src="./assets/img/Apple-Logo-600x313.PNG">  
+                  </div>  
+                  <div class="border-2  border-black-200 rounded-md shadow-md">  
+                      <img class="h-11 w-24 px-5 " src="./assets/img/images (3).png">  
+                  </div>  
+            </div>
+              <br>    
+           <div class="flex justify-center items-center gap-2">
+                          <input type="text" class="h-0.5 border w-24">Or<input type="text" class="h-0.5 w-24 border">
+                      </div>
+            <div class="mb-4">
+            <label>Email Address</label>
+              <input class="border-2 rounded-md appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Email address or phone">
+            </div>
+            <div class="mb-6">
+              <label>Password</label>
+              <input class="border-2 rounded-md appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Password">
+            </div>
+            <div class="flex items-center justify-between">
+              <label class="pl-0 font-semibold"><input type="checkbox"> Remeber for 30 days</label>
+              <a class="inline-block align-baseline font-semibold text-sm text-blue-800 hover:text-blue-800" href="#">
+                Forgot password?
+              </a>
+            </div>
+      
+          <br>
+            <div class="mb-6">
+              <button class="bg-indigo-600  text-white font-medium w-full py-2 px-4 rounded-md focus:outline-none focus:shadow-outline" type="submit">
+                Sign in
+              </button>
+             </div>
+      
+             
+              
+              <div class="mb-4 flex justify-center items-center">
+                  <h4 class="font-semibold">Don't have an account? <a href="" class="inline-block  align-baseline font-normal text-sm text-indigo-600 ">Create account</a></h4>
+              </div>
+      
+          </form>
+        </div>
+      </div>
     
 </body>
 </html>
